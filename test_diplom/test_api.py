@@ -3,7 +3,8 @@ import requests
 
 # тестирование функционала сайта читай-город
 base_url = "https://web-gate.chitai-gorod.ru"
-token_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDkxNTE1MjgsImlhdCI6MTc0ODk4MzUyOCwiaXNzIjoiL2FwaS92MS9hdXRoL2Fub255bW91cyIsInN1YiI6ImE3ZDU4NjUwY2E3NjVjODdmYjFmNWE5MjI0NmRlNzdlZTY3MGMyNTI2YmI4NWVkOWMwOGMyZDk0OTY0MTM1MzQiLCJ0eXBlIjoxMH0.Z7Ifu04t_pcfGIafE1v-CiNTuQcrVXiEmpyST6aVmzc"
+# на сайте читай-город необходимо взять токен (access-token), в разделе cookies.
+token_key = "" 
 headers = {
     "accept": "application/json",
     "accept-language": "ru,ru-RU;q=0.9,en-US;q=0.8,en;q=0.7",
